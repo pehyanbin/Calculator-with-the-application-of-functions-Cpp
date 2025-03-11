@@ -45,6 +45,12 @@ void start_operation(string &new_operation) {
     cin >> new_operation; 
 }
 
+void endprogramui() {
+    cout << "==========================================================" << endl; 
+    cout << "                     END OF PROGRAM.                      " << endl; 
+    cout << "==========================================================" << endl; 
+}
+
 int main() {
     string start = "Y";
 
@@ -141,7 +147,7 @@ int main() {
 
     }
 
-    
+    endprogramui();
 
 
     return 0;
